@@ -125,4 +125,29 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+       /**
+     * Displays football page.
+     *
+     * @return string
+     */
+    public function actionFootball()
+    {
+        return $this->render('sports/football');
+    }
+
+    public function actionBasketball()
+    {
+        return $this->render('sports/basketball');
+    }
+
+    public function actionBoxing()
+    {
+        return $this->render('sports/Boxing');
+    }
+
+    public function actionTennis()
+    {
+        return $this->render('sports/Tennis');
+    }
 }
